@@ -26,7 +26,7 @@ class Administrativo extends My_controller {
                 );
             }
         }
-
+        // Fazendo o cadastro de menu do sistema.
 		
 		$this->setURL ($data);
 
