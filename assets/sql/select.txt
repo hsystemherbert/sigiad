@@ -1,0 +1,13 @@
+'SELECT' . "\n" .
+                '    stp.idPagina,' . "\n" .
+                '    pag.nome,' . "\n" .
+                '    pag.uri,' . "\n" .
+                '    pag.mostraMenu,' . "\n" .
+                '    pgr.nome AS nomeGrupo,' . "\n" .
+                '    pgr.htmlid,' . "\n" .
+                '    pgr.icone' . "\n" .
+                'FROM adm_setores_paginas stp' . "\n" .
+                '     INNER JOIN adm_usuario usu ON usu.idSetor = stp.idSetor AND usu.idUsuario = :userId' . "\n" .
+                '     INNER JOIN adm_paginas pag ON pag.idPagina = stp.idPagina' . "\n" .
+                '     INNER JOIN adm_paginas_grupos pgr ON pgr.idPaginaGrupo = pag.idPaginaGrupo'
+                . ' ORDER BY pgr.nome'
