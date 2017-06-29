@@ -9,7 +9,7 @@ class Planocontas extends My_controller {
 
 	public function index(){
 
-		 $this->load->model('planocontas_model');
+		 $this->load->model('model_main');
 		
 		$data							= array();
 		$data ['planocontaID']			= '';
@@ -18,31 +18,44 @@ class Planocontas extends My_controller {
 		$data ['planocontaCheck'] 		= '';
 
 
+		$data ['BLC_NATUREZA']		= array();
 		$data ['BLC_DADOS']			= array();
 		$data ['BLC_SEMDADOS']		= array();
 
+		
+		$sql = "SELECT fpc1.DescricaoPlano AS PlanoDescricao, fpc1.PlanoID
+		 FROM financeiro_plano_contas AS fpc1
+		   LEFT JOIN financeiro_plano_contas AS fpc2 ON fpc2.PlanoContabilPai_ID = fpc1.PlanoID
+		   LEFT JOIN financeiro_plano_contas AS fpc3 ON fpc3.PlanoContabilPai_ID = fpc2.PlanoID
+		   LEFT JOIN financeiro_plano_contas AS fpc4 ON fpc4.PlanoContabilPai_ID = fpc3.PlanoID
+		   LEFT JOIN financeiro_plano_contas AS fpc5 ON fpc5.PlanoContabilPai_ID = fpc4.PlanoID
+		  where fpc1.PlanoContabilPai_ID is null
+		  order by fpc1.PlanoID";
 
-		$pagina						= $this->input->get('pagina');
+		$natureza = $this->model_main->get_query($sql);
 
-		if (!$pagina){
-			$pagina = 0;
-		} else {
-			$pagina = ($pagina-1) *30;
+		if($natureza){
+			foreach ($natureza as $value) {
+				$data['BLC_NATUREZA'][] = array(
+					"ID" 		=> $value->PlanoID,
+					"NATUREZA"	=> $value->PlanoDescricao
+				);
+			}
 		}
 
 		
-		$res						= $this->planocontas_model->get (array(), FALSE, $pagina);
+		$res = $this->model_main->get($select = array(), $from= "financeiro_plano_contas", $condicao = array(), $primeiraLinha = FALSE, $pagina = 0);
 
 
 		if ($res) {
 			foreach ($res as $r) {
 				$data ['BLC_DADOS'] []	= array(
-				"ID"			=> $r->PlanoContaID,
-				"COD"			=> $r->PlanoCodContabil,
-				"NOME"			=> $r->PlanoDescricao,
-				"CHECK"			=> $r->planocontaCheck,
-				"URLEDITAR"		=> site_url ('contabilidade/planocontas/editar/'.$r->PlanoContaID),
-				"URLEXCLUIR"	=> site_url ('contabilidade/planocontas/excluir/'.$r->PlanoContaID)
+				"ID"			=> $r->PlanoID,
+				"COD"			=> $r->CodigoContabil,
+				"NOME"			=> $r->DescricaoPlano,
+				"CHECK"			=> $r->RecebeLancamento,
+				"URLEDITAR"		=> site_url ('contabilidade/planocontas/editar/'.$r->PlanoID),
+				"URLEXCLUIR"	=> site_url ('contabilidade/planocontas/excluir/'.$r->PlanoID)
 				);
 			}
 			
@@ -199,6 +212,14 @@ class Planocontas extends My_controller {
 
 		$this->layout = 'dashboard';
         $this->parser->parse('contabilidade/planocontas_form', $data);
+
+	}
+
+	public function selecaoPlanoConta($CodigoContabil){
+
+		$data = "sucesso $CodigoContabil";
+
+		echo json_encode($data);
 
 	}
 

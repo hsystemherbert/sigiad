@@ -1,52 +1,149 @@
+<script src="<?php echo base_url('assets/assets/js/system/PlanoContas.js')?>"></script>
+<div class="page-header">
+    <h1>
+        <a href="<?php echo base_url('painel/principal')?>">INÍCIO</a>
+        <small>
+            <i class="ace-icon fa fa-angle-double-right"></i>
+            Contabilidade
+        </small>
+         <small>
+            <i class="ace-icon fa fa-angle-double-right"></i>
+            Cadastro do Plano de Contas
+        </small>
+    </h1>
+</div><!-- /.page-header -->
 <div id="page-wrapper" >
 <div id="page-inner">
 <div class="row">
 	<div class="col-md-12">
-		<div class="col-md-1">
-			<img src="<?php echo base_url('assets/img/icones/43.png')?>" style="padding-left: 20px;">
-		</div>
-		<div class="col-md-10">
-			<h2 style="padding-left: 15px;">CADASTRO DE CARGOS DA IGREJA</h2>
-		</div>
+		<h2 class="header smaller lighter blue text-center" ">CADASTRO DO PLANO DE CONTAS</h2>
     </div>
 </div>              
 <!-- /. ROW  -->
-<hr />
 <div class="row">
 	<div class="col-md-12">
 		<div class="panel-body">
 			<div class="row">
 				<form action="{ACAOFORM}" id="planoconta" method="POST" role="form">
-					<div class="col-md-12">
-						<div class="col-md-1">
-							<div class="form-group"> 
-                				<label for="planocontaID">ID</label>
-                				<input type="text" id="planocontaID" name="planocontaID" value="{planocontaID}" class="form-control" />
-                			</div>
-						</div>
-                        <div class="col-md-3">
-                            <div class="form-group"> 
-                                <label for="planocontaCod">Código Contábil</label>
-                                <input type="text" id="planocontaCod" name="planocontaCod" value="{planocontaCod}" class="form-control" />
+                    <div class="col-md-6 col-md-offset-3">
+                        <div class="form-group alert alert-info" id="txt-status"> 
+                            <h2>Informação:</h2>
+                            <p>Você deve selecionar a 1ª Natureza</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-md-offset-3" id="nivel1">
+                        <div class="col-md-12">
+                            <div class="col-md-4">
+                                <div class="form-group"> 
+                                    <label for="Historico">Código Contábil</label>
+                                    <input type="text" id="Historico" name="Historico" value="{Historico}" class="form-control" />
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="form-group"> 
+                                    <label class="labelPlano" for="natureza1">Selecione a 1ª Natureza do Plano &nbsp &nbsp Nível 1</label>
+                                    <select name="natureza1" id="natureza1" class="form-control">
+                                        <option value="">Selecione...</option>
+                                    {BLC_NATUREZA}
+                                        <option value="{ID}">{NATUREZA}</option>
+                                    {/BLC_NATUREZA}
+                                    </select>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <div class="form-group"> 
-                                <label for="planocontaDesc">Descrição</label>
-                                <input type="text" id="planocontaDesc" name="planocontaDesc" value="{planocontaDesc}" class="form-control" />
+                    </div>
+                    <div class="col-md-6 col-md-offset-3" id="nivel2">
+                        <div class="col-md-12">
+                            <div class="col-md-4">
+                                <div class="form-group"> 
+                                    <label for="Historico">Código Contábil</label>
+                                    <input type="text" id="Historico" name="Historico" value="{Historico}" class="form-control" />
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="form-group"> 
+                                    <label class="labelPlano" for="natureza2">Selecione a 2ª Natureza do Plano &nbsp &nbsp Nível 1</label>
+                                    <select name="natureza2" id="natureza2" class="form-control">
+                                        <option value="">Selecione...</option>
+                                    {BLC_NATUREZA}
+                                        <option value="{ID}">{NATUREZA}</option>
+                                    {/BLC_NATUREZA}
+                                    </select>
+                                </div>
                             </div>
                         </div>
-					</div>
-                    <div class="col-md-12">
-                         <div class="col-md-12">
-                            <div class="form-group">
+                    </div>
+                    <div class="col-md-6 col-md-offset-3" id="nivel3">
+                        <div class="col-md-12">
+                            <div class="col-md-4">
+                                <div class="form-group"> 
+                                    <label for="Historico">Código Contábil</label>
+                                    <input type="text" id="Historico" name="Historico" value="{Historico}" class="form-control" />
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="form-group"> 
+                                    <label class="labelPlano" for="natureza3">Selecione a 3ª Natureza do Plano &nbsp &nbsp Nível 1</label>
+                                    <select name="natureza3" id="natureza3" class="form-control">
+                                        <option value="">Selecione...</option>
+                                    {BLC_NATUREZA}
+                                        <option value="{ID}">{NATUREZA}</option>
+                                    {/BLC_NATUREZA}
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-md-offset-3" id="nivel4">
+                        <div class="col-md-12">
+                            <div class="col-md-4">
+                                <div class="form-group"> 
+                                    <label for="Historico">Código Contábil</label>
+                                    <input type="text" id="Historico" name="Historico" value="{Historico}" class="form-control" />
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="form-group"> 
+                                    <label class="labelPlano" for="natureza4">Selecione a 4ª Natureza do Plano &nbsp &nbsp Nível 1</label>
+                                    <select name="natureza4" id="natureza4" class="form-control">
+                                        <option value="">Selecione...</option>
+                                    {BLC_NATUREZA}
+                                        <option value="{ID}">{NATUREZA}</option>
+                                    {/BLC_NATUREZA}
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-md-offset-3" id="nivel5">
+                        <div class="col-md-12">
+                            <div class="col-md-4">
+                                <div class="form-group"> 
+                                    <label for="Historico">Código Contábil</label>
+                                    <input type="text" id="Historico" name="Historico" value="{Historico}" class="form-control" />
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="form-group"> 
+                                    <label class="labelPlano" for="natureza5">Selecione a 5ª Natureza do Plano &nbsp &nbsp Nível 1</label>
+                                    <select name="natureza5" id="natureza5" class="form-control">
+                                        <option value="">Selecione...</option>
+                                    {BLC_NATUREZA}
+                                        <option value="{ID}">{NATUREZA}</option>
+                                    {/BLC_NATUREZA}
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-md-offset-4" id="receberLancamento">
+                        <div class="form-group">
                                 <div class="checkbox">
                                     <label>
                                         <input type="checkbox" name="planocontaCheck" id="planocontaCheck" value="planocontaCheck" style="max-width: 100px; max-height: 80px; width: auto; height: auto" />Pode Receber Lançamentos Contábeis?
                                     </label>
                                 </div>
                             </div>
-                        </div>
                     </div>
                     <div class="col-md-12"><br>
                     <div style="text-align: right; padding-right: 30px;">
@@ -107,15 +204,12 @@
 </div>
 </div>
 </div>
-<script>
+<!-- <script>
       $(document).ready(function () {
         $('#dataTables-form').dataTable();
      });
-</script>
+</script> -->
 <script>
-    $(document).ready(function() {
-
-        new SendForm({frm: $('#planoconta'), btn:$('#btnSalvar')}).setShowErrors(showerrors());
-        new SendForm({frm: $('#planoconta'), btn:$('#btnEditar')}).setShowErrors(showerrors());
-    });
+    var url_nivel = '<?php echo base_url('')?>contabilidade/Planocontas/selecaoPlanoConta/';
+    //var url_menu = '<?php //echo base_url('')?>configuracoes/Administrativo/cadastromenu/';
 </script>

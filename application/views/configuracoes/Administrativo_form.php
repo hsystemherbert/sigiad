@@ -11,7 +11,7 @@
         </small>
     </h1>
 </div><!-- /.page-header -->
-<div id="page-wrapper" >
+<div id="page-wrapper">
 <div id="page-inner">
 <div class="row">
 	<div class="col-xs-12 col-md-12">

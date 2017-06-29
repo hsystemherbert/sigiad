@@ -13,6 +13,13 @@ class Model_main extends CI_Model {
 			return $this->db->get() ->result();
 		}
 	}
+
+	public function get_query ($sql){
+
+		$query = $this->db->query($sql);
+        
+        return $query->result();
+	}
 	
 	public function post($from, $itens) {
 		$res = $this->db->insert ($from, $itens);
