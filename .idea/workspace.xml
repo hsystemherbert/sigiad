@@ -1,7 +1,445 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b14ee3bc-b702-4273-b364-6054baf2197b" name="Default" comment="" />
+    <list default="true" id="b14ee3bc-b702-4273-b364-6054baf2197b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/models/Ativa_model.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/models/Atividade_model.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/models/Campo_model.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/models/ContaPagar_model.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/models/EscalaObreiro_Model.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/models/Fornecedor_model.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/models/Funcao_model.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/models/Lancamento_model.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/models/TipoConta_model.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/models/admissao_model.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/models/cargo_model.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/models/departamento_model.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/models/lancamento_caixa_model.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/models/membresia_model.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/models/membro.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/models/planocontas_model.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/models/situacao_model.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/models/teste.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/models/usuariomodel.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/views/secretaria/EscalaObreiro_form.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/views/secretaria/FuncaoExerce_form.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/views/secretaria/Igreja_form.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/views/secretaria/admissao_form.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/views/secretaria/cadastro_form.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/views/secretaria/cargos.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/views/secretaria/departamento_form.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/views/secretaria/membresia_form.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/views/secretaria/membro_form.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/views/secretaria/situacao.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/avatars/avatar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/avatars/avatar1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/avatars/avatar2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/avatars/avatar3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/avatars/avatar4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/avatars/avatar5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/avatars/profile-pic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/avatars/user.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/css/ace-ie.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/css/ace-part2.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/css/ace-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/css/ace-skins.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/css/ace.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/css/bootstrap-datetimepicker.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/css/bootstrap-duallistbox.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/css/bootstrap-editable.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/css/bootstrap-multiselect.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/css/bootstrap-timepicker.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/css/chosen-sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/css/chosen-sprite@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/css/chosen.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/css/colorbox.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/css/colorpicker.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/css/colorpicker.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/css/datepicker.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/css/daterangepicker.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/css/dropzone.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/css/fullcalendar.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/css/images/border.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/css/images/controls.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/css/images/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/css/images/loading_background.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/css/images/meteorshower2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/css/images/overlay.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/css/images/pattern.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/css/img/alpha.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/css/img/hue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/css/img/saturation.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/css/jquery-ui.custom.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/css/jquery-ui.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/css/jquery.gritter.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/css/prettify.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/css/select2-spinner.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/css/select2.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/css/select2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/css/select2x2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/css/ui.jqgrid.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/css/ui.jqgrid.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/font-awesome/4.1.0/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/font-awesome/4.1.0/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/font-awesome/4.1.0/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/font-awesome/4.1.0/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/font-awesome/4.1.0/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/font-awesome/4.2.0/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/font-awesome/4.2.0/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/font-awesome/4.2.0/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/font-awesome/4.2.0/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/font-awesome/4.2.0/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/fonts/fonts.googleapis.com.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/images/email1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/images/email2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/images/email3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/images/email4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/images/gallery/image-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/images/gallery/image-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/images/gallery/image-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/images/gallery/image-4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/images/gallery/image-5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/images/gallery/image-6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/images/gallery/thumb-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/images/gallery/thumb-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/images/gallery/thumb-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/images/gallery/thumb-4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/images/gallery/thumb-5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/images/gallery/thumb-6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/images/spritemap.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/images/spritemap@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/img/clear.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/img/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/ace-editable.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/ace-elements.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/ace-extra.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/ace.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/additional-methods.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/bootbox.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/bootstrap-colorpicker.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/bootstrap-datepicker.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/bootstrap-datetimepicker.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/bootstrap-editable.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/bootstrap-markdown.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/bootstrap-multiselect.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/bootstrap-tag.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/bootstrap-timepicker.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/bootstrap-wysiwyg.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/chosen.jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/dataTables.colVis.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/dataTables.tableTools.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/daterangepicker.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/dropzone.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/excanvas.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/fuelux.spinner.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/fuelux.tree.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/fuelux.wizard.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/fullcalendar.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/grid.locale-en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/html5shiv.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/jquery-ui.custom.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/jquery-ui.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/jquery.1.11.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/jquery.2.1.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/jquery.autosize.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/jquery.bootstrap-duallistbox.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/jquery.colorbox-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/jquery.colorbox.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/jquery.dataTables.bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/jquery.dataTables.bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/jquery.dataTables.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/jquery.easypiechart.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/jquery.flot.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/jquery.flot.pie.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/jquery.flot.resize.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/jquery.gritter.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/jquery.hotkeys.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/jquery.inputlimiter.1.3.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/jquery.jqGrid.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/jquery.knob.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/jquery.maskedinput.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/jquery.mobile.custom.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/jquery.nestable.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/jquery.raty.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/jquery.slimscroll.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/jquery.sparkline.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/jquery.ui.touch-punch.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/jquery.validate.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/jquery1x.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/markdown.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/moment.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/prettify.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/respond.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/select2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/spin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/system/PlanoContas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/system/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/js/typeahead.jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/assets/swf/copy_csv_xls_pdf.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/custom.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/jquery.mCustomScrollbar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/sweetalert.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/font-awesome/fonts/fontawesome-webfontba72.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/font-awesome/fonts/fontawesome-webfontba72.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/font-awesome/fonts/fontawesome-webfontba72.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/font-awesome/fonts/fontawesome-webfontba72.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/font-awesome/fonts/fontawesome-webfontd41d.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/glyphicons-halflings-regulard41d.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/58m.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/adbelem.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/adorar_man3 - Copia.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/adorar_man3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/adorar_man31.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/fotos/elvys.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/fotos/herbert.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/fotos/leandro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/fotos/login.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/fotos/sheila.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/fouder.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/101.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/102.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/103.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/104.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/105.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/106.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/107.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/108.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/109.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/10a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/110.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/111.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/11a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/13a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/14a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/16a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/17.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/18.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/18a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/19.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/19a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/19b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/20.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/21.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/22.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/23.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/24.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/25.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/25a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/26.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/27.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/27a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/28.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/29.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/30.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/30a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/31.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/31a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/33.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/33a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/33m.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/34.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/34a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/35.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/35a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/36.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/36g.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/37.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/37a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/38.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/38g.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/39.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/3a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/40.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/41.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/42.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/43.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/43a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/44.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/44a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/45.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/45a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/46.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/46a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/47.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/47a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/48.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/48a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/49.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/49a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/4a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/50.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/50a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/51a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/52a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/53a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/53m.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/54a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/54m.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/55a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/55m.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/56a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/56m.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/57a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/57m.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/58a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/58m.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/59a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/59m.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/5a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/60a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/60m.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/61a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/61m.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/62a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/62m.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/63a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/63m.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/64a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/64m.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/65a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/65m.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/66a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/66m.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/67a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/67m.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/68a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/68m.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/69a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/69m.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/70a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/70m.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/71a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/71m.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/72a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/72m.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/73a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/73m.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/74a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/74m.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/75a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/75m.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/76a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/76m.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/77a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/77m.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/78a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/78m.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/79a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/79m.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/80a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/80m.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/81a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/81m.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/82a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/82m.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/83a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/83m.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/84a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/84m.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/85a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/85m.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/86a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/86m.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/87a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/87m.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/88a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/88m.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/89.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/90.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/91.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/92.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/93.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/94.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/95.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/96.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/97.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/98.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icones/99.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/login1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/logoAD.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/logoOficial/Logo1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/logoOficial/LogoPreto.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/logoOficial/LogoRamoComFundo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/logoOficial/LogoRamoSemFundo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/logoOficial/LogoSigiad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/logoOficial/LogoSigiadSemFundo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/logoOficial/fouder.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/sigadeb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/custom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/dataTables/dataTables.bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/dataTables/dataTables.bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/dataTables/jquery.dataTables.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/input-search/input-search.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/input-search/jquery.quick.search.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/jquery-1.10.2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/jquery-maskmoney.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/jquery.mCustomScrollbar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/jquery.maskedinput.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/jquery.metisMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/morris/morris-0.4.3.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/morris/morris.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/morris/raphael-2.1.0.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/sendform.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/sweetalert.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/sql/adm_paginas.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/sql/adm_paginas_grupos.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/sql/adm_setores.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/sql/adm_setores_paginas.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/sql/adm_usuario.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/sql/comandoSum.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/sql/consultaMenu.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/sql/consulta_planoContas.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/sql/select.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/SIGIAD.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/SIGIAD.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sigiad.iml" afterPath="$PROJECT_DIR$/.idea/sigiad.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/database.php" afterPath="$PROJECT_DIR$/application/config/database.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/contabilidade/Planocontas.php" afterPath="$PROJECT_DIR$/application/controllers/contabilidade/Planocontas.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/painel/Principal.php" afterPath="$PROJECT_DIR$/application/controllers/painel/Principal.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/Igreja_model.php" afterPath="$PROJECT_DIR$/application/models/Igreja_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/model_main.php" afterPath="$PROJECT_DIR$/application/models/model_main.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/dashboard.php" afterPath="$PROJECT_DIR$/application/templates/dashboard.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/templates/maintample.php" afterPath="$PROJECT_DIR$/application/templates/maintample.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/contabilidade/planocontas_form.php" afterPath="$PROJECT_DIR$/application/views/contabilidade/planocontas_form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/painel/secretaria.php" afterPath="$PROJECT_DIR$/application/views/painel/secretaria.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="$PROJECT_DIR$/assets/css/style.css" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,50 +450,42 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AtivaMesCaixa.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/controllers/financeiro/AtivaMesCaixa.php">
+      <file leaf-file-name="CadastroMembro.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/secretaria/CadastroMembro.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-215">
-              <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+            <state relative-caret-position="189">
+              <caret line="426" column="0" lean-forward="true" selection-start-line="426" selection-start-column="0" selection-end-line="426" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CodeIgniter.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/system/core/CodeIgniter.php">
+      <file leaf-file-name="LivroRol.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/secretaria/LivroRol.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="558" column="0" lean-forward="false" selection-start-line="558" selection-start-column="0" selection-end-line="558" selection-end-column="0" />
+            <state relative-caret-position="170">
+              <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Common.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/system/core/Common.php">
+      <file leaf-file-name="RelatorioGeral.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/controllers/secretaria/RelatorioGeral.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="699" column="0" lean-forward="false" selection-start-line="699" selection-start-column="0" selection-end-line="699" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Hooks.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/system/core/Hooks.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="139" column="0" lean-forward="false" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -68,6 +498,13 @@
         <option value="$PROJECT_DIR$/application/controllers/painel/Financeiro.php" />
         <option value="$PROJECT_DIR$/application/core/My_controller.php" />
         <option value="$PROJECT_DIR$/application/controllers/financeiro/AtivaMesCaixa.php" />
+        <option value="$PROJECT_DIR$/application/views/tesouraria/LancamentoCaixa_form.php" />
+        <option value="$PROJECT_DIR$/application/controllers/painel/Secretaria.php" />
+        <option value="$PROJECT_DIR$/application/controllers/secretaria/LivroRol.php" />
+        <option value="$PROJECT_DIR$/system/core/Common.php" />
+        <option value="$PROJECT_DIR$/application/config/database.php" />
+        <option value="$PROJECT_DIR$/application/models/cadastro_membro_model.php" />
+        <option value="$PROJECT_DIR$/application/controllers/secretaria/CadastroMembro.php" />
       </list>
     </option>
   </component>
@@ -77,6 +514,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpServers">
     <servers>
       <server host="system.sigiad.com.br" id="cf37df3e-603f-4992-bb52-0b3d53889f6b" name="SIGIAD" />
@@ -84,10 +522,9 @@
     </servers>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-6" />
+    <option name="width" value="1378" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectView">
@@ -106,177 +543,61 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sigiad" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sigiad" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sigiad" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sigiad" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sigiad" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sigiad" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sigiad" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sigiad" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sigiad" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sigiad" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sigiad" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sigiad" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tesouraria" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sigiad" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sigiad" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="secretaria" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sigiad" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sigiad" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="painel" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sigiad" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sigiad" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="financeiro" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="sigiad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sigiad" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="sigiad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sigiad" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="sigiad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sigiad" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="sigiad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sigiad" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="painel" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="sigiad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sigiad" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="secretaria" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="sigiad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sigiad" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="core" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="sigiad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sigiad" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="hooks" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="sigiad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sigiad" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="models" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -284,16 +605,28 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.scopes" />
   </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
   <component name="RunManager" selected="PHP Remote Debug.SIGIAD">
     <configuration default="true" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug">
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="PHP Remote Debug.SIGIAD" />
-    </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -312,11 +645,31 @@
       <workItem from="1494864873596" duration="4770000" />
       <workItem from="1495047315383" duration="2801000" />
       <workItem from="1495393055744" duration="3682000" />
+      <workItem from="1503949478836" duration="1298000" />
+      <workItem from="1504282926450" duration="249000" />
+      <workItem from="1504283972453" duration="2068000" />
+      <workItem from="1504292299947" duration="3606000" />
+      <workItem from="1504529350648" duration="11004000" />
+      <workItem from="1504565704625" duration="14856000" />
+      <workItem from="1504629260082" duration="597000" />
+      <workItem from="1504720634332" duration="6586000" />
+      <workItem from="1504733486310" duration="1793000" />
+      <workItem from="1504755069800" duration="11687000" />
+      <workItem from="1504928742243" duration="14653000" />
+      <workItem from="1505233342069" duration="483000" />
+      <workItem from="1505303637338" duration="5158000" />
+      <workItem from="1505427758453" duration="6014000" />
+      <workItem from="1505475630345" duration="2593000" />
+      <workItem from="1505486408044" duration="154000" />
+      <workItem from="1507314758207" duration="1786000" />
+      <workItem from="1507559286416" duration="13568000" />
+      <workItem from="1507587233693" duration="2516000" />
+      <workItem from="1507638091553" duration="6593000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47847000" />
+    <option name="totallyTimeSpent" value="155109000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -331,16 +684,16 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20726173" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2322239" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17948718" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08496732" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -351,92 +704,22 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="61" />
+      <option name="time" value="153" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/controllers/financeiro/Lancamentocaixa.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="38" lean-forward="false" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-          <folding>
-            <marker date="1495057684292" expanded="true" signature="225:3628" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="412:520" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="445:516" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="1439:1584" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="1469:1580" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="1506:1574" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="1655:1819" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="1687:1815" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="1730:1809" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="1917:2105" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="1945:2101" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="1980:2095" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="2253:3037" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="2504:2550" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="2578:2622" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="2630:2669" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="2702:2788" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="2826:3031" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="3657:7232" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="3729:3885" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="3771:3875" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="4579:4716" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="4724:4753" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="4786:4949" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="4957:4990" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="5010:5085" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="5110:5188" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="5217:5287" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="5309:5385" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="5413:5489" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="5514:5601" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="5621:7103" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="5641:6009" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="6035:6547" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="6138:6365" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="6373:6533" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="6555:7098" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="6667:6906" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="6914:7084" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="7111:7229" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="7269:7420" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="7465:7944" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="7618:7805" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="7813:7941" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="7987:9296" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="8194:8213" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="8221:8254" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="8343:8733" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="8369:8729" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="8405:8723" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="8741:8784" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="8895:9100" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="8925:9095" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="9108:9163" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="9338:10179" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="9433:9531" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="9565:9686" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="9719:9840" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="9871:9992" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="10025:10146" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/core/My_controller.php">
+    <entry file="file://$PROJECT_DIR$/application/views/tesouraria/LancamentoCaixa_form.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -444,76 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/financeiro/Lancamentocaixa.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1495057684292" expanded="true" signature="225:3628" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="412:520" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="445:516" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="1439:1584" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="1469:1580" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="1506:1574" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="1655:1819" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="1687:1815" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="1730:1809" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="1917:2105" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="1945:2101" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="1980:2095" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="2253:3037" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="2504:2550" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="2578:2622" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="2630:2669" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="2702:2788" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="2826:3031" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="3657:7232" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="3729:3885" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="3771:3875" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="4579:4716" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="4724:4753" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="4786:4949" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="4957:4990" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="5010:5085" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="5110:5188" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="5217:5287" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="5309:5385" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="5413:5489" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="5514:5601" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="5621:7103" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="5641:6009" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="6035:6547" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="6138:6365" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="6373:6533" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="6555:7098" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="6667:6906" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="6914:7084" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="7111:7229" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="7269:7420" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="7465:7944" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="7618:7805" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="7813:7941" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="7987:9296" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="8194:8213" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="8221:8254" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="8343:8733" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="8369:8729" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="8405:8723" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="8741:8784" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="8895:9100" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="8925:9095" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="9108:9163" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="9338:10179" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="9433:9531" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="9565:9686" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="9719:9840" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="9871:9992" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="10025:10146" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -528,90 +741,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11883">
           <caret line="699" column="0" lean-forward="false" selection-start-line="699" selection-start-column="0" selection-end-line="699" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/lancamento_caixa_model.php">
+    <entry file="file://$PROJECT_DIR$/system/core/Hooks.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state relative-caret-position="2363">
+          <caret line="139" column="0" lean-forward="false" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/financeiro/Lancamentocaixa.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3519">
-          <caret line="207" column="0" lean-forward="false" selection-start-line="207" selection-start-column="0" selection-end-line="207" selection-end-column="0" />
-          <folding>
-            <marker date="1495057684292" expanded="true" signature="225:3628" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="412:520" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="445:516" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="1439:1584" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="1469:1580" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="1506:1574" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="1655:1819" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="1687:1815" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="1730:1809" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="1917:2105" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="1945:2101" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="1980:2095" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="2253:3037" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="2504:2550" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="2578:2622" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="2630:2669" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="2702:2788" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="2826:3031" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="3657:7232" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="3729:3885" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="3771:3875" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="4579:4716" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="4724:4753" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="4786:4949" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="4957:4990" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="5010:5085" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="5110:5188" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="5217:5287" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="5309:5385" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="5413:5489" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="5514:5601" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="5621:7103" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="5641:6009" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="6035:6547" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="6138:6365" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="6373:6533" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="6555:7098" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="6667:6906" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="6914:7084" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="7111:7229" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="7269:7420" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="7465:7944" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="7618:7805" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="7813:7941" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="7987:9296" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="8194:8213" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="8221:8254" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="8343:8733" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="8369:8729" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="8405:8723" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="8741:8784" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="8895:9100" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="8925:9095" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="9108:9163" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="9338:10179" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="9433:9531" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="9565:9686" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="9719:9840" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="9871:9992" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="10025:10146" ph="..." />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="11" column="38" lean-forward="false" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/lancamento_caixa_model.php">
+    <entry file="file://$PROJECT_DIR$/application/core/My_controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/financeiro/AtivaMesCaixa.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -619,78 +776,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1495057684292" expanded="true" signature="225:3628" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="412:520" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="445:516" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="1439:1584" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="1469:1580" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="1506:1574" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="1655:1819" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="1687:1815" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="1730:1809" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="1917:2105" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="1945:2101" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="1980:2095" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="2253:3037" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="2504:2550" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="2578:2622" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="2630:2669" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="2702:2788" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="2826:3031" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="3657:7232" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="3729:3885" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="3771:3875" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="4579:4716" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="4724:4753" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="4786:4949" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="4957:4990" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="5010:5085" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="5110:5188" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="5217:5287" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="5309:5385" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="5413:5489" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="5514:5601" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="5621:7103" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="5641:6009" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="6035:6547" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="6138:6365" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="6373:6533" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="6555:7098" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="6667:6906" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="6914:7084" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="7111:7229" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="7269:7420" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="7465:7944" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="7618:7805" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="7813:7941" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="7987:9296" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="8194:8213" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="8221:8254" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="8343:8733" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="8369:8729" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="8405:8723" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="8741:8784" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="8895:9100" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="8925:9095" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="9108:9163" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="9338:10179" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="9433:9531" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="9565:9686" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="9719:9840" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="9871:9992" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="10025:10146" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/lancamento_caixa_model.php">
+    <entry file="file://$PROJECT_DIR$/system/core/CodeIgniter.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+        <state relative-caret-position="9486">
+          <caret line="558" column="0" lean-forward="false" selection-start-line="558" selection-start-column="0" selection-end-line="558" selection-end-column="0" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/system/core/Common.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11883">
+          <caret line="699" column="0" lean-forward="false" selection-start-line="699" selection-start-column="0" selection-end-line="699" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/lancamento_caixa_model.php" />
+    <entry file="file://$PROJECT_DIR$/application/controllers/financeiro/Lancamentocaixa.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3519">
+          <caret line="207" column="0" lean-forward="false" selection-start-line="207" selection-start-column="0" selection-end-line="207" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/lancamento_caixa_model.php" />
+    <entry file="file://$PROJECT_DIR$/application/controllers/financeiro/Lancamentocaixa.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/lancamento_caixa_model.php" />
     <entry file="file://$PROJECT_DIR$/application/controllers/tesouraria/Fornecedor.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3638">
@@ -737,7 +856,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="131" column="37" lean-forward="false" selection-start-line="131" selection-start-column="8" selection-end-line="131" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -748,13 +866,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/ContaPagar_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/ContaPagar_model.php" />
     <entry file="file://$PROJECT_DIR$/application/controllers/tesouraria/ContaPagar.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -762,28 +874,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/admissao_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-254">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/secretaria/Admissao.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-935">
-          <caret line="47" column="30" lean-forward="true" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/lancamento_caixa_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/admissao_model.php" />
+    <entry file="file://$PROJECT_DIR$/application/models/lancamento_caixa_model.php" />
     <entry file="file://$PROJECT_DIR$/system/core/Input.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
@@ -795,7 +887,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -803,107 +894,155 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="11" column="38" lean-forward="false" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-          <folding>
-            <marker date="1495057684292" expanded="true" signature="225:3628" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="412:520" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="445:516" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="1439:1584" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="1469:1580" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="1506:1574" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="1655:1819" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="1687:1815" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="1730:1809" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="1917:2105" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="1945:2101" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="1980:2095" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="2253:3037" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="2504:2550" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="2578:2622" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="2630:2669" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="2702:2788" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="2826:3031" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="3657:7232" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="3729:3885" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="3771:3875" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="4579:4716" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="4724:4753" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="4786:4949" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="4957:4990" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="5010:5085" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="5110:5188" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="5217:5287" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="5309:5385" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="5413:5489" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="5514:5601" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="5621:7103" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="5641:6009" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="6035:6547" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="6138:6365" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="6373:6533" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="6555:7098" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="6667:6906" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="6914:7084" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="7111:7229" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="7269:7420" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="7465:7944" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="7618:7805" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="7813:7941" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="7987:9296" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="8194:8213" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="8221:8254" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="8343:8733" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="8369:8729" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="8405:8723" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="8741:8784" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="8895:9100" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="8925:9095" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="9108:9163" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="9338:10179" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="9433:9531" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="9565:9686" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="9719:9840" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="9871:9992" ph="..." />
-            <marker date="1495057684292" expanded="true" signature="10025:10146" ph="..." />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/financeiro/AtivaMesCaixa.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1394">
+          <caret line="82" column="22" lean-forward="true" selection-start-line="82" selection-start-column="22" selection-end-line="82" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/tesouraria/LancamentoCaixa_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/painel/Principal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-487">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/painel/Secretaria.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/core/Benchmark.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/system/core/Hooks.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="139" column="0" lean-forward="false" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
+        <state relative-caret-position="171">
+          <caret line="136" column="0" lean-forward="false" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/secretaria/Admissao.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="47" column="30" lean-forward="true" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1173">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="84" column="56" lean-forward="false" selection-start-line="84" selection-start-column="56" selection-end-line="84" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/Igreja_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/core/My_controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        <state relative-caret-position="136">
+          <caret line="8" column="56" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/painel/Login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="84" column="48" lean-forward="true" selection-start-line="84" selection-start-column="8" selection-end-line="84" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/system/core/CodeIgniter.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/secretaria/Membros.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="558" column="0" lean-forward="false" selection-start-line="558" selection-start-column="0" selection-end-line="558" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/secretaria/Membresia.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4828">
+          <caret line="284" column="1" lean-forward="false" selection-start-line="284" selection-start-column="1" selection-end-line="284" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/cadastro_membro_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="18" column="42" lean-forward="false" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/system/core/Common.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="254">
           <caret line="699" column="0" lean-forward="false" selection-start-line="699" selection-start-column="0" selection-end-line="699" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/financeiro/AtivaMesCaixa.php">
+    <entry file="file://$PROJECT_DIR$/system/core/CodeIgniter.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-215">
-          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+        <state relative-caret-position="390">
+          <caret line="558" column="0" lean-forward="false" selection-start-line="558" selection-start-column="0" selection-end-line="558" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/secretaria/CadastroMembro.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="426" column="0" lean-forward="true" selection-start-line="426" selection-start-column="0" selection-end-line="426" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/secretaria/LivroRol.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/secretaria/RelatorioGeral.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

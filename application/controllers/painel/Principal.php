@@ -13,7 +13,7 @@ class Principal extends My_Controller {
 
         $usuario_logado = $this->session->userdata('login');
 
-        $perfil = $usuario_logado['log']['setor'];
+        $perfil = "Secretario"; //$usuario_logado['log']['setor'];
 
         switch ($perfil) {
 

@@ -33,13 +33,7 @@
                     </div>
                     <div class="col-md-6 col-md-offset-3" id="nivel1">
                         <div class="col-md-12">
-                            <div class="col-md-4">
-                                <div class="form-group"> 
-                                    <label for="Historico">Código Contábil</label>
-                                    <input type="text" id="Historico" name="Historico" value="{Historico}" class="form-control" />
-                                </div>
-                            </div>
-                            <div class="col-md-8">
+                            <div class="col-md-8" id="nivel1_select">
                                 <div class="form-group"> 
                                     <label class="labelPlano" for="natureza1">Selecione a 1ª Natureza do Plano &nbsp &nbsp Nível 1</label>
                                     <select name="natureza1" id="natureza1" class="form-control">
@@ -54,33 +48,23 @@
                     </div>
                     <div class="col-md-6 col-md-offset-3" id="nivel2">
                         <div class="col-md-12">
-                            <div class="col-md-4">
+                            <div class="col-md-8" id="nivel2_select">
                                 <div class="form-group"> 
-                                    <label for="Historico">Código Contábil</label>
-                                    <input type="text" id="Historico" name="Historico" value="{Historico}" class="form-control" />
+                                    <label class="labelPlano" for="natureza1">Selecione a 2ª Natureza do Plano &nbsp &nbsp Nível 1</label>
+                                    <select name="natureza2" id="natureza2" class="form-control">
+                                    </select>
                                 </div>
                             </div>
-                            <div class="col-md-8">
+                            <div class="col-md-8" id="nivel2_input">
                                 <div class="form-group"> 
-                                    <label class="labelPlano" for="natureza2">Selecione a 2ª Natureza do Plano &nbsp &nbsp Nível 1</label>
-                                    <select name="natureza2" id="natureza2" class="form-control">
-                                        <option value="">Selecione...</option>
-                                    {BLC_NATUREZA}
-                                        <option value="{ID}">{NATUREZA}</option>
-                                    {/BLC_NATUREZA}
-                                    </select>
+                                    <label class="labelPlano" for="natureza1_input">Descrição da 2ª Natureza</label>
+                                    <input type="text" id="natureza1_input" name="natureza1_input" class="form-control" />
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-md-offset-3" id="nivel3">
                         <div class="col-md-12">
-                            <div class="col-md-4">
-                                <div class="form-group"> 
-                                    <label for="Historico">Código Contábil</label>
-                                    <input type="text" id="Historico" name="Historico" value="{Historico}" class="form-control" />
-                                </div>
-                            </div>
                             <div class="col-md-8">
                                 <div class="form-group"> 
                                     <label class="labelPlano" for="natureza3">Selecione a 3ª Natureza do Plano &nbsp &nbsp Nível 1</label>
@@ -92,16 +76,16 @@
                                     </select>
                                 </div>
                             </div>
+                            <div class="col-md-8" id="nivel3_input">
+                                <div class="form-group"> 
+                                    <label class="labelPlano" for="natureza1_input">Descrição da 3ª Natureza</label>
+                                    <input type="text" id="natureza1_input" name="natureza1_input" class="form-control" />
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-md-offset-3" id="nivel4">
                         <div class="col-md-12">
-                            <div class="col-md-4">
-                                <div class="form-group"> 
-                                    <label for="Historico">Código Contábil</label>
-                                    <input type="text" id="Historico" name="Historico" value="{Historico}" class="form-control" />
-                                </div>
-                            </div>
                             <div class="col-md-8">
                                 <div class="form-group"> 
                                     <label class="labelPlano" for="natureza4">Selecione a 4ª Natureza do Plano &nbsp &nbsp Nível 1</label>
@@ -113,16 +97,16 @@
                                     </select>
                                 </div>
                             </div>
+                            <div class="col-md-8" id="nivel4_input">
+                                <div class="form-group"> 
+                                    <label class="labelPlano" for="natureza1_input">Descrição da 4ª Natureza</label>
+                                    <input type="text" id="natureza1_input" name="natureza1_input" class="form-control" />
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-md-offset-3" id="nivel5">
                         <div class="col-md-12">
-                            <div class="col-md-4">
-                                <div class="form-group"> 
-                                    <label for="Historico">Código Contábil</label>
-                                    <input type="text" id="Historico" name="Historico" value="{Historico}" class="form-control" />
-                                </div>
-                            </div>
                             <div class="col-md-8">
                                 <div class="form-group"> 
                                     <label class="labelPlano" for="natureza5">Selecione a 5ª Natureza do Plano &nbsp &nbsp Nível 1</label>
@@ -132,6 +116,12 @@
                                         <option value="{ID}">{NATUREZA}</option>
                                     {/BLC_NATUREZA}
                                     </select>
+                                </div>
+                            </div>
+                            <div class="col-md-8" id="nivel5_input">
+                                <div class="form-group"> 
+                                    <label class="labelPlano" for="natureza1_input">Descrição da 5ª Natureza</label>
+                                    <input type="text" id="natureza1_input" name="natureza1_input" class="form-control" />
                                 </div>
                             </div>
                         </div>
@@ -210,6 +200,7 @@
      });
 </script> -->
 <script>
-    var url_nivel = '<?php echo base_url('')?>contabilidade/Planocontas/selecaoPlanoConta/';
+    var url       = '<?php echo base_url('')?>contabilidade/Planocontas';
+    var url_nivel = '<?php echo base_url('')?>contabilidade/Planocontas/selecaoPlanoConta';
     //var url_menu = '<?php //echo base_url('')?>configuracoes/Administrativo/cadastromenu/';
 </script>

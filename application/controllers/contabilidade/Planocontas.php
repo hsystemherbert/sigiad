@@ -12,10 +12,7 @@ class Planocontas extends My_controller {
 		 $this->load->model('model_main');
 		
 		$data							= array();
-		$data ['planocontaID']			= '';
-		$data ['planocontaCod'] 		= '';
-		$data ['planocontaDesc'] 		= '';
-		$data ['planocontaCheck'] 		= '';
+		$data ['CodContabil'] 			= '';
 
 
 		$data ['BLC_NATUREZA']		= array();
@@ -23,7 +20,7 @@ class Planocontas extends My_controller {
 		$data ['BLC_SEMDADOS']		= array();
 
 		
-		$sql = "SELECT fpc1.DescricaoPlano AS PlanoDescricao, fpc1.PlanoID
+		$sql = "SELECT fpc1.DescricaoPlano AS PlanoDescricao, fpc1.PlanoID, fpc1.CodigoContabil
 		 FROM financeiro_plano_contas AS fpc1
 		   LEFT JOIN financeiro_plano_contas AS fpc2 ON fpc2.PlanoContabilPai_ID = fpc1.PlanoID
 		   LEFT JOIN financeiro_plano_contas AS fpc3 ON fpc3.PlanoContabilPai_ID = fpc2.PlanoID
@@ -34,11 +31,19 @@ class Planocontas extends My_controller {
 
 		$natureza = $this->model_main->get_query($sql);
 
+
+		// if($natureza){
+
+		// echo json_encode($natureza);
+		
+		// }
+
 		if($natureza){
 			foreach ($natureza as $value) {
 				$data['BLC_NATUREZA'][] = array(
-					"ID" 		=> $value->PlanoID,
-					"NATUREZA"	=> $value->PlanoDescricao
+					"ID" 			=> $value->PlanoID,
+					"CODCONTABIL"	=> $value->CodigoContabil,
+					"NATUREZA"		=> $value->PlanoDescricao
 				);
 			}
 		}
@@ -215,12 +220,143 @@ class Planocontas extends My_controller {
 
 	}
 
-	public function selecaoPlanoConta($CodigoContabil){
+	public function selecaoPlanoConta(){
 
-		$data = "sucesso $CodigoContabil";
+		$this->load->model('model_main');
+		
+		$CodigoContabil = $_POST['CodigoContabil'];
 
-		echo json_encode($data);
+		$Codigo = $_POST['Codigo'];
 
+		
+		if($Codigo)
+		{
+			if($Codigo == 'natureza1')
+			{
+
+				$sql = "SELECT concat(fpc1.CodigoContabil,'.',fpc2.CodigoContabil) as CodigoPlano, fpc2.DescricaoPlano AS PlanoDescricao, fpc2.PlanoID
+				 FROM financeiro_plano_contas AS fpc1
+				   LEFT JOIN financeiro_plano_contas AS fpc2 ON fpc2.PlanoContabilPai_ID = fpc1.PlanoID
+				   LEFT JOIN financeiro_plano_contas AS fpc3 ON fpc3.PlanoContabilPai_ID = fpc2.PlanoID
+				   LEFT JOIN financeiro_plano_contas AS fpc4 ON fpc4.PlanoContabilPai_ID = fpc3.PlanoID
+				   LEFT JOIN financeiro_plano_contas AS fpc5 ON fpc5.PlanoContabilPai_ID = fpc4.PlanoID
+				  where fpc2.PlanoContabilPai_ID = '$CodigoContabil'
+				  order by fpc1.CodigoContabil";
+
+				$natureza1 = $this->model_main->get_query($sql);
+
+				if($natureza1)
+				{
+					echo json_encode($natureza1);
+				} else
+				{
+					$natureza1 = "false";
+					echo json_encode($natureza1);
+				}
+
+			} else if($Codigo == 'natureza2')
+			{
+
+				$sql = "SELECT concat(fpc1.CodigoContabil,'.',fpc2.CodigoContabil) as CodigoPlano, fpc2.DescricaoPlano AS PlanoDescricao
+				 FROM financeiro_plano_contas AS fpc1
+				   LEFT JOIN financeiro_plano_contas AS fpc2 ON fpc2.PlanoContabilPai_ID = fpc1.PlanoID
+				   LEFT JOIN financeiro_plano_contas AS fpc3 ON fpc3.PlanoContabilPai_ID = fpc2.PlanoID
+				   LEFT JOIN financeiro_plano_contas AS fpc4 ON fpc4.PlanoContabilPai_ID = fpc3.PlanoID
+				   LEFT JOIN financeiro_plano_contas AS fpc5 ON fpc5.PlanoContabilPai_ID = fpc4.PlanoID
+				  where fpc2.PlanoContabilPai_ID = '$CodigoContabil'
+				  order by fpc1.CodigoContabil";
+
+				$natureza1 = $this->model_main->get_query($sql);
+
+				if($natureza1)
+				{
+					echo json_encode($natureza1);
+				} else
+				{
+					$natureza1 = "false";
+					echo json_encode($natureza1);
+				}
+
+			} else if($Codigo == 'natureza3')
+			{
+				$sql = "SELECT concat(fpc1.CodigoContabil,'.',fpc2.CodigoContabil) as CodigoPlano, fpc2.DescricaoPlano AS PlanoDescricao
+				 FROM financeiro_plano_contas AS fpc1
+				   LEFT JOIN financeiro_plano_contas AS fpc2 ON fpc2.PlanoContabilPai_ID = fpc1.PlanoID
+				   LEFT JOIN financeiro_plano_contas AS fpc3 ON fpc3.PlanoContabilPai_ID = fpc2.PlanoID
+				   LEFT JOIN financeiro_plano_contas AS fpc4 ON fpc4.PlanoContabilPai_ID = fpc3.PlanoID
+				   LEFT JOIN financeiro_plano_contas AS fpc5 ON fpc5.PlanoContabilPai_ID = fpc4.PlanoID
+				  where fpc2.PlanoContabilPai_ID = '$CodigoContabil'
+				  order by fpc1.CodigoContabil";
+
+				$natureza1 = $this->model_main->get_query($sql);
+
+				if($natureza1)
+				{
+					echo json_encode($natureza1);
+				} else
+				{
+					$natureza1 = "false";
+					echo json_encode($natureza1);
+				}
+
+			} else if($Codigo == 'natureza4')
+			{
+
+				$sql = "SELECT concat(fpc1.CodigoContabil,'.',fpc2.CodigoContabil) as CodigoPlano, fpc2.DescricaoPlano AS PlanoDescricao
+				 FROM financeiro_plano_contas AS fpc1
+				   LEFT JOIN financeiro_plano_contas AS fpc2 ON fpc2.PlanoContabilPai_ID = fpc1.PlanoID
+				   LEFT JOIN financeiro_plano_contas AS fpc3 ON fpc3.PlanoContabilPai_ID = fpc2.PlanoID
+				   LEFT JOIN financeiro_plano_contas AS fpc4 ON fpc4.PlanoContabilPai_ID = fpc3.PlanoID
+				   LEFT JOIN financeiro_plano_contas AS fpc5 ON fpc5.PlanoContabilPai_ID = fpc4.PlanoID
+				  where fpc2.PlanoContabilPai_ID = '$CodigoContabil'
+				  order by fpc1.CodigoContabil";
+
+				$natureza1 = $this->model_main->get_query($sql);
+
+				if($natureza1)
+				{
+					echo json_encode($natureza1);
+				} else
+				{
+					$natureza1 = "false";
+					echo json_encode($natureza1);
+				}
+
+			} else if($Codigo == 'natureza5')
+			{
+
+				$sql = "SELECT concat(fpc1.CodigoContabil,'.',fpc2.CodigoContabil) as CodigoPlano, fpc2.DescricaoPlano AS PlanoDescricao
+				 FROM financeiro_plano_contas AS fpc1
+				   LEFT JOIN financeiro_plano_contas AS fpc2 ON fpc2.PlanoContabilPai_ID = fpc1.PlanoID
+				   LEFT JOIN financeiro_plano_contas AS fpc3 ON fpc3.PlanoContabilPai_ID = fpc2.PlanoID
+				   LEFT JOIN financeiro_plano_contas AS fpc4 ON fpc4.PlanoContabilPai_ID = fpc3.PlanoID
+				   LEFT JOIN financeiro_plano_contas AS fpc5 ON fpc5.PlanoContabilPai_ID = fpc4.PlanoID
+				  where fpc2.PlanoContabilPai_ID = '$CodigoContabil'
+				  order by fpc1.CodigoContabil";
+
+				$natureza1 = $this->model_main->get_query($sql);
+
+				if($natureza1)
+				{
+					echo json_encode($natureza1);
+				} else
+				{
+					$natureza1 = "false";
+					echo json_encode($natureza1);
+				}
+
+			} else
+			{
+				$data = "Erro no sistema";
+				echo json_encode($data);
+			}
+
+		} else
+		{
+			$data = "Erro no sistema";
+			echo json_encode($data);
+		}
+			
 	}
 
 }

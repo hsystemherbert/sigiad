@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="SIGIAD" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug" server_name="SIGIAD">
+  <configuration default="false" name="SIGIAD" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug" server_name="sigiad.system.com.br" session_id="PHPSTORM">
     <method />
   </configuration>
 </component>

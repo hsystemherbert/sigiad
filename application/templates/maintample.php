@@ -1,123 +1,146 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SIGIAD - Sistema de Administração da Igreja Evangélica Assembléia de Deus Ministério do Belém Queluz-SP</title>
+<html lang="pt-br">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- BOOTSTRAP STYLES-->
-    <link href="<?php echo base_url('assets/css/bootstrap.css')?>" rel="stylesheet" />
+    <title>SIGIAD - Sistema de Gerenciamento de Igrejas Evangélicas</title>
 
-    <!-- FONTAWESOME STYLES-->
-    <link href="<?php echo base_url('assets/css/font-awesome.css')?>" rel="stylesheet" />
+    <!-- Bootstrap -->
+    <link href="<?php echo base_url('assets/vendors/bootstrap/dist/css/bootstrap.min.css')?>" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="<?php echo base_url('assets/vendors/font-awesome/css/font-awesome.min.css')?>" rel="stylesheet">
+    <!-- NProgress -->
+    <link href="<?php echo base_url('assets/vendors/nprogress/nprogress.css')?>" rel="stylesheet">
+    <!-- Animate.css -->
+    <link href="https://colorlib.com/polygon/gentelella/css/animate.min.css" rel="stylesheet">
 
-    <!-- MORRIS CHART STYLES-->
-    <link href="<?php echo base_url('assets/js/morris/morris-0.4.3.min.css')?>" rel="stylesheet" />
+    <!-- sweetalert -->
+    <link href="<?php echo base_url('assets/vendors/sweetalert/sweetalert.css')?>" rel="stylesheet">
 
-    <!-- CUSTOM STYLES-->
-    <link href="<?php echo base_url('assets/css/custom.css')?>" rel="stylesheet" />
+    <!-- Custom Theme Style -->
+    <link href="<?php echo base_url('assets/build/css/custom.min.css')?>" rel="stylesheet">
 
-    <link href="<?php echo base_url('assets/css/sweetalert.css')?>" rel="stylesheet" />
-
-    <link href="<?php echo base_url('assets/css/style.css')?>" rel="stylesheet" />
-
-
-    <!-- GOOGLE FONTS-->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
-
-    <!-- SCRIPTS -AT THE BOTOM TO REDUCE THE LOAD TIME-->
-    <!-- JQUERY SCRIPTS -->
-    <script src="<?php echo base_url('assets/js/jquery-1.10.2.js')?>"></script>
-    <!-- BOOTSTRAP SCRIPTS -->
-    <script src="<?php echo base_url('assets/js/bootstrap.min.js')?>"></script>
-    <!-- METISMENU SCRIPTS -->
-    <script src="<?php echo base_url('assets/js/jquery.metisMenu.js')?>"></script>
-    <!-- MORRIS CHART SCRIPTS -->
-    <script src="<?php echo base_url('assets/js/morris/raphael-2.1.0.min.js')?>"></script>
-    <script src="<?php echo base_url('assets/js/morris/morris.js')?>"></script>
-    <script src="<?php echo base_url('assets/js/sendform.js')?>"></script>
-    <script src="<?php echo base_url('assets/js/sweetalert.min.js')?>"></script>
-
-
-    <style>
-
-        body {
-
-            background-image: url(../../assets/img/fouder.jpg);
-            background-size: 100%;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-position: center;
+    <!-- <style>
+        body{
+          background-image: url('<?php echo base_url('assets/img/bg-login.jpg')?>') !important;
         }
-        .navbar-right{
-            margin-right: 10px !important;
-        }
+    </style> -->
+  </head>
 
-    </style>
-</head>
-<body>
+  <body class="login">
+    <div>
+      <a class="hiddenanchor" id="signup"></a>
+      <a class="hiddenanchor" id="signin"></a>
 
-<div id="wrapper">
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="adjust-nav">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="<?php echo base_url('Home');?>"><img src="<?php echo base_url('assets/img/icones/30a.png')?>" style="margin-top: -10px;">&nbsp;SIGIAD</a>
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="<?php echo base_url ('Home'); ?>">HOME</a></li>
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">IGREJAS
-                            <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="<?php echo base_url ('Site/Igreja/Sede'); ?>">Sede</a></li>
-                            <li><a href="<?php echo base_url ('Site/Igreja/QueluzI'); ?>">Queluz I</a></li>
-                            <li><a href="<?php echo base_url ('Site/Igreja/ItatiaiaI'); ?>">Itatiaia I</a></li>
-                            <li><a href="<?php echo base_url ('Site/Igreja/ItatiaiaII'); ?>">Itatiaia II</a></li>
-                            <li><a href="<?php echo base_url ('Site/Igreja/Resende'); ?>">Resende</a></li>
-                            <li><a href="<?php echo base_url ('Site/Igreja/PortoReal'); ?>">Porto Real</a></li>
-                            <li><a href="<?php echo base_url ('Site/Igreja/Areias'); ?>">Areias</a></li>
-                            <li><a href="<?php echo base_url ('Site/Igreja/Arapei'); ?>">Arapeí</a></li>
-                            <li><a href="<?php echo base_url ('Site/Igreja/Bananal'); ?>">Bananal</a></li>
-                            <li><a href="<?php echo base_url ('Site/Igreja/SaoJoseBarreiro'); ?>">São José do Barreiro</a></li>
-                            <li><a href="<?php echo base_url ('Site/Igreja/EngenheiroPassos'); ?>">Engenheiro Passos</a></li>
+      <div class="login_wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="animate form login_form">
+          <section class="login_content">
+            <form>
+              <h1>Área Restrita</h1>
+              <div>
+                <input type="text" class="form-control" placeholder="Usuário" name="email" id="email" required="" />
+              </div>
+              <div>
+                <input type="password" class="form-control" placeholder="Senha" name="senha" id="senha" required="" />
+              </div>
+              <div>
+               <input type="button" class="btn btn-lg btn-success btn-block" id="enviar" value="Enviar Dados" />
+              </div>
 
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">AGENDA 2017
-                            <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="<?php echo base_url('Site/Agenda/EnviarEvento');?>">Enviar Evento</a></li>
-                            <li><a href="<?php echo base_url('Site/Agenda/Janeiro');?>">Janeiro</a></li>
-                            <li><a href="<?php echo base_url('Site/Agenda/Fevereiro');?>">Fevereiro</a></li>
-                            <li><a href="<?php echo base_url('Site/Agenda/Marco');?>">Março</a></li>
-                            <li><a href="<?php echo base_url('Site/Agenda/Abril');?>">Abril</a></li>
-                            <li><a href="<?php echo base_url('Site/Agenda/Maio');?>">Maio</a></li>
-                            <li><a href="<?php echo base_url('Site/Agenda/Junho');?>">Junho</a></li>
-                            <li><a href="<?php echo base_url('Site/Agenda/Julho');?>">Julho</a></li>
-                            <li><a href="<?php echo base_url('Site/Agenda/Agosto');?>">Agosto</a></li>
-                            <li><a href="<?php echo base_url('Site/Agenda/Setembro');?>">Setembro</a></li>
-                            <li><a href="<?php echo base_url('Site/Agenda/Outubro');?>">Outubro</a></li>
-                            <li><a href="<?php echo base_url('Site/Agenda/Novembro');?>">Novembro</a></li>
-                            <li><a href="<?php echo base_url('Site/Agenda/Dezembro');?>">Dezembro</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="<?php echo base_url('painel/Login');?>">LOGIN</a></li>
-                </ul>
-            </div>
+              <div class="clearfix"></div>
 
+              <div class="separator">
+                <p class="change_link">
+                  <a href="#signup" class="to_register">Esqueceu a Senha?</a>
+                </p>
+
+                <div class="clearfix"></div>
+                <br />
+
+                <div>
+                 <h1><i class="fa fa-sitemap" aria-hidden="true"></i> SIGIAD Sistema de Gestão de Igrejas</h1>
+                  <p>©2017 Todos direitos Reservados a Hsystem Technology. O Sistema de Gestão Comercial é um programa da Hsystem. Privacidade e Termos</p>
+                </div>
+              </div>
+            </form>
+          </section>
         </div>
+          </div>
+        </div>
+
+        <!-- <div id="register" class="animate form registration_form">
+          <section class="login_content">
+            <form>
+              <h1>Create Account</h1>
+              <div>
+                <input type="text" class="form-control" placeholder="Username" required="" />
+              </div>
+              <div>
+                <input type="email" class="form-control" placeholder="Email" required="" />
+              </div>
+              <div>
+                <input type="password" class="form-control" placeholder="Password" required="" />
+              </div>
+              <div>
+                <a class="btn btn-default submit" href="index.html">Submit</a>
+              </div>
+
+              <div class="clearfix"></div>
+
+              <div class="separator">
+                <p class="change_link">Already a member ?
+                  <a href="#signin" class="to_register"> Log in </a>
+                </p>
+
+                <div class="clearfix"></div>
+                <br />
+
+                <div>
+                  <h1><i class="fa fa-sitemap" aria-hidden="true"></i> Sistema de Gestão Comercial</h1>
+                  <p>©2017 Todos direitos Reservados a Hsystem Technology. O Sistema de Gestão Comercial é um programa da Hsystem. Privacidade e Termos</p>
+                </div>
+              </div>
+            </form>
+          </section>
+        </div> -->
+      </div>
     </div>
-</div>
 
-{CONTEUDO}
+    <!-- jQuery -->
+    <script src="<?php echo base_url('assets/vendors/jquery/dist/jquery.min.js')?>"></script>
+    <!-- Bootstrap -->
+    <script src="<?php echo base_url('assets/vendors/bootstrap/dist/js/bootstrap.min.js')?>"></script>
+     <!-- Custom Theme Scripts -->
+    <script src="<?php echo base_url('assets/build/js/custom.min.js')?>"></script>
+    <!-- sweetalert -->
+    <script src="<?php echo base_url('assets/vendors/sweetalert/sweetalert.min.js')?>"></script>
 
+    <script>
+     $(document).ready(function(){
 
-</body>
+        var url = "<?php echo base_url('painel/Login/Logar')?>";
+
+        $('#enviar').click(function(){
+
+            $.ajax({
+                url : url,
+                type : 'POST',
+                data : 'loginuser=' + $('#email').val() + '&senhauser=' + $('#senha').val(),
+                success: function(data){
+                  window.location.href = "<?php echo base_url('painel/Principal')?>";
+                }, erro: function(data){
+                  window.location.href = "<?php echo base_url('Home')?>";
+                }
+            });
+        });
+    });
+    </script>
+
+  </body>
 </html>
