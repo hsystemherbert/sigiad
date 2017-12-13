@@ -28,7 +28,7 @@ class Login extends CI_Controller {
     {
         $this->load->library('JSON');
         $this->load->model('Login_model');
-        $this->load->model('pagina_model');
+        //$this->load->model('pagina_model');
 
         $idUsuario			= $this->input->post ('idUsuario');
         $loginuser 			= $this->input->post ('loginuser');
