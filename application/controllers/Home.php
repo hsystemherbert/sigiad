@@ -20,7 +20,7 @@ class Home extends CI_Controller {
 	 */
 	public function index() {
 
-        $this->layout = 'maintample';
+        $this->layout = 'dashboard';
 		//$this->load->view('site/home');
 	}
 }
