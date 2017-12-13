@@ -134,10 +134,10 @@
                 data : 'loginuser=' + $('#email').val() + '&senhauser=' + $('#senha').val(),
                 success: function(data){
                   // window.location.href = "<?php echo base_url('painel/Principal')?>";
-                  console.log(data);
+                  console.log("sucess"+data);
                 }, erro: function(data){
                   //window.location.href = "<?php echo base_url('Home')?>";
-                  console.log(data);
+                  console.log("error"+data);
                 }
             });
         });
