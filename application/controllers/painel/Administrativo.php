@@ -1,6 +1,6 @@
 <?php if (!defined('BASEPATH')) exit('No direct script access allowed');
 
-class Administrativo extends My_Controller {
+class Administrativo extends MY_Controller {
     
     public function __construct()
     {

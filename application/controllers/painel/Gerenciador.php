@@ -1,6 +1,6 @@
 <?php if (!defined('BASEPATH')) exit('No direct script access allowed');
 
-class Gerenciador extends My_Controller {
+class Gerenciador extends MY_Controller {
     
     public function __construct()
     {
