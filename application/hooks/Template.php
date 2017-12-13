@@ -53,14 +53,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             $html = str_replace("{SETOR}", $setor, $html);
                         }
 
-                        if ($logado)
-                        {
-                        	$pagina = $logado['menu'];
-                        	$pag_grupo = $logado['grupo'];
-                        	$menu = $this->ChamaMenu($pagina,$pag_grupo);
-                        	$html = str_replace("{BLC_DADOS}", $menu, $html);
+                        // if ($logado)
+                        // {
+                        // 	$pagina = $logado['menu'];
+                        // 	$pag_grupo = $logado['grupo'];
+                        // 	$menu = $this->ChamaMenu($pagina,$pag_grupo);
+                        // 	$html = str_replace("{BLC_DADOS}", $menu, $html);
 							
-                        }
+                        // }
 
 						
 						if ($erroDash)
