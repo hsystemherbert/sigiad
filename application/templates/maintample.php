@@ -133,9 +133,11 @@
                 type : 'POST',
                 data : 'loginuser=' + $('#email').val() + '&senhauser=' + $('#senha').val(),
                 success: function(data){
-                  window.location.href = "<?php echo base_url('painel/Principal')?>";
+                  // window.location.href = "<?php echo base_url('painel/Principal')?>";
+                  console.log(data);
                 }, erro: function(data){
-                  window.location.href = "<?php echo base_url('Home')?>";
+                  //window.location.href = "<?php echo base_url('Home')?>";
+                  console.log(data);
                 }
             });
         });

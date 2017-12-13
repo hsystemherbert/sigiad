@@ -28,7 +28,7 @@ class Login extends CI_Controller {
     {
         $this->load->library('JSON');
         $this->load->model('Login_model');
-        $this->load->model('pagina_model');
+        //$this->load->model('pagina_model');
 
         $idUsuario			= $this->input->post ('idUsuario');
         $loginuser 			= $this->input->post ('loginuser');
@@ -53,11 +53,11 @@ class Login extends CI_Controller {
                 );
             }
 
-            $pagina = $this->Login_model->PermissaoUsuario($idUsuario);
-            $sess_array['menu'] = $pagina;
+            // $pagina = $this->Login_model->PermissaoUsuario($idUsuario);
+            // $sess_array['menu'] = $pagina;
             
-            $grupo = $this->Login_model->PaginaGrupo();
-            $sess_array['grupo'] = $grupo;
+            // $grupo = $this->Login_model->PaginaGrupo();
+            // $sess_array['grupo'] = $grupo;
 
             $data ['sucesso'] = array("Login com sucesso");
                 echo json_encode($data);
