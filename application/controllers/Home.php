@@ -23,4 +23,9 @@ class Home extends CI_Controller {
         $this->layout = 'maintample';
 		//$this->load->view('site/home');
 	}
+	public function logout()
+    {
+        $this->session->unset_userdata("login");
+        redirect(base_url('Home'));
+    }
 }
