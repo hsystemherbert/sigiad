@@ -21,7 +21,7 @@ class Login extends CI_Controller {
 
 		$this->setURL ($data);
 		$this->layout = 'maintample';
-		$this->parser->parse('painel/login', $data);
+		$this->parser->parse('painel/Login', $data);
 	}
 
     public function Logar()
@@ -63,7 +63,7 @@ class Login extends CI_Controller {
                 echo json_encode($data);
 
             $this->session->set_userdata('login',$sess_array);
-                redirect(base_url('painel/principal'));
+                redirect(base_url('painel/Principal'));
         }
         else
         {
