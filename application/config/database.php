@@ -75,9 +75,9 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
+	'hostname' => 'sigiad.mysql.dbaas.com.br',
+	'username' => 'sigiad',
+	'password' => 'db@sigiad',
 	'database' => 'sigiad',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
